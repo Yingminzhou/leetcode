@@ -60,3 +60,9 @@ class Solution(object):
                 return minInt
             else:
                 return -1 * ret
+
+
+
+s = Solution()
+str = "4193 with words"
+print s.myAtoi(str)
